@@ -1,5 +1,7 @@
 # --- Strings in Python ---
 
+
+ 
 # Strings in Python are used to store text and can be enclosed in either single (' ') or double (" ") quotes.
 # Both are valid ways to define a string
 
@@ -32,3 +34,20 @@ print(name2[2])  # Output: 'e' (the character at the 2nd position)
 # Python also supports negative indexing, where -1 refers to the last character, -2 to the second-to-last, and so on.
 
 print(name2[-1])  # Output: 'x' (the last character in the string "alex")
+
+
+# note: Strings are immutable in Python.
+# This means once a string is declared, we cannot modify it directly.
+
+# example ----
+
+a="alex"
+
+# Now if i try to it modify it 
+# a[0]="A"
+# print(a) # This would raise a TypeError because strings are immutable
+
+# but we can do this
+# we can perform  concatenation and slicing  for sting modification
+a="A"+a[1:]   
+print(a)
