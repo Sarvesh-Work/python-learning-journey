@@ -87,3 +87,29 @@ list_b = [60, 70, 80]
 list_b.extend(list_a)
 print(f"List B after extending with List A: {list_b}")
 
+# 9. remove()
+# this method removes the first occurrence of a specified value from the list
+# if the value is not in the list, it raises a ValueError
+list_to_remove_from = [3, 4, 5, 6, 7, 8]
+value_to_remove = 5
+list_to_remove_from.remove(value_to_remove)
+print(f"the {value_to_remove} is removed from the list: {list_to_remove_from}")
+
+# 10. pop()
+# this method removes the element at the specified index and returns it
+# if no index is specified, it removes and returns the last element in the list
+list_to_pop = [3, 4, 5, 6, 7, 8]
+# remove the element at index 3
+popped_element = list_to_pop.pop(3)
+print(f"List after popping element at index 3: {list_to_pop}") # output=[3, 4, 5, 7, 8]
+popped_element_without_index = list_to_pop.pop()  # remove the last element if no index is specified
+print(f"List after popping the last element: {list_to_pop}") # output=[3, 4, 5, 7]
+
+# 11. clear()
+# this method removes all elements from the list
+list_to_clear = [3, 4, 5, 6, 7, 8]
+list_to_clear.clear()
+print(f"List after clearing all elements: {list_to_clear}") # output=[]
+
+
+
