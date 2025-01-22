@@ -17,3 +17,10 @@ print("Value at index 3:", my_list[3])
 # list comprehension to create a list of string representations of each item
 stringified_list = [str(item) for item in my_list]
 print("Stringified list:", stringified_list) # -- output=Stringified list: ['4', '5', 'hi', 'hello']
+
+
+# also we can create list using list() constructor
+# create a list 
+string_list = list(["hello","hi","how are you"]) 
+print(string_list) # output=['hello', 'hi', 'how are you']
+
