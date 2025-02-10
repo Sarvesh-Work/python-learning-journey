@@ -1,0 +1,16 @@
+[
+    {
+        "roll_number": 101,
+        "name": "John Doe",
+        "age": 21,
+        "course": "Computer Science",
+        "marks": 85.5
+    },
+    {
+        "roll_number": 34,
+        "name": "sarvesh munde",
+        "age": 45,
+        "course": "computer",
+        "marks": 45.0
+    }
+]
