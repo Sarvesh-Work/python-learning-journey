@@ -1,10 +1,7 @@
-cat > README.md << 'EOF'
-
 # 🐍 Python Learning Journey
 
 [![Python Version](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-April%202025-brightgreen)
-
 
 Welcome to my **Python Learning Journey** repository!
 
